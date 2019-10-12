@@ -1,8 +1,17 @@
-# Client
 
-客户端
+# Run Server
+To run server locally, just install dependencies and run gulp task to create a build:
 
-# Server
+$ cd server
+$ npm install -g gulp-cli
+$ npm install
+$ gulp build
+$ npm start
+The socket.io server will be running on port 8080
 
-服务端
+# Run Client
+Open other command line window and run following commands:
 
+$ cd client
+$ npm install
+$ ng serve -o
